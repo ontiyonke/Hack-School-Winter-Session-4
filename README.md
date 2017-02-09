@@ -1,7 +1,7 @@
 # Welcome this is the official repo for project 4
 ##UCLA ACM HACK
 
-If you've missed the third session, check out the blog post first: 
+If you've missed the fourth session, check out the blog post first: 
 
 ##What do I turn in
 For beginners you should solve all of the listed short exercises and receive points for completing those. These are unrelated to the project skeleton in this repo. For intermediate/advanced students you can work on the weekly project with your team, and receive points for completing that. You can only get credit for one or the other, but not for both so choose the one most appropriate for your skill level. Please only submit one .zip file per team. Include the contents of your entire android project, and also provide your team access code (Found on Hack School Dashboard) in a text file. Otherwise you will not receive credit! 
@@ -12,7 +12,31 @@ Submissions will be due 1 week from the session, but we will accept late submiss
 ##Beginner Exercises
 
 ######Exercise 1:
-eatreThe first part of the
+For the first part your goal is build a very basic audio player
+* Choose a random audio clip 
+* Create a one page app with three buttons
+* The first button should be for play/pause, meaning the image of the button should change when pressed from a play icon to a pause icon
+* The second button should be a start button that begins playing the audio file
+* The third button should be a stop button that stops playing the audio file.
+
+Extra Credit: 
+* For more points add a edittext, and have the audio player play a song based off the text provided. For example if you have audio1.mp3 and audio2.mp3, then typing in audio1 and hitting play should start the first audio file. 
+
+
+######Exercise 2:
+For the second part your goal is build a very basic video player
+* Choose a random video clip 
+* Create a one page app with three buttons
+* The first button should be for play/pause, meaning the image of the button should change when pressed from a play icon to a pause icon
+* The second button should be a start button that begins playing the video file
+* The third button should be a stop button that stops playing the video file.
+
+Extra Credit: 
+* For more points add a edittext, and have the video player play a clip based off the text provided. For example if you have video1.mkv and video2.mkv, then typing in video1 and hitting play should start the first video file. 
+
+
+######Exercise 3:
+Add a button to the screen in exercise 1 that when pressed, causes the app to transition to the screen in exercise 2.
 
 Note: Put all of your exercises into the same android project when submitting
 
@@ -23,24 +47,10 @@ complete the project without the skeleton, but it will be a lot easier to use it
 ###Instructions
 The goal is to build a basic camera application with as little guidance as possible, so try to come up with unique solutions when you run into problems. You're being given lots of flexibility so come up with your own implementation: grading will be very generous. 
 
-######dropIn function 
-* This function should be used to drop in image views when pressed
-* It should update the game state and active player
-* It should determine if somebody has won the game
-* If game is over it should display a dialog indicating winner
-* It should check for draws
-* Optional: Add in cool animation that causes tiles to fly in or fade in
-
-######playAgain function 
-* Should reset game to initial state, and update all variables
-* It should hide dialog box
-
-###Hints
-* Start with the xml layout and add in missing image views for tiles
-* Look up creative uses for tags
-* Onclicklistener is not needed when the xml has it already defined
-* Linear Layouts can also be added using id in the code
-* layout.setVisibility(View.INVISIBLE) can set a view to be invisible
-
 ###End Product Goal
-![](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/02/Tic-Tac-Toe_nexus5x-portrait--1-.png)
+Main Menu
+![](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/02/BruinCam-Menu_nexus5x-portrait.png)
+Camera 
+![](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/02/BruinCam-Camera_nexus5x-portrait.png)
+Gallery
+![](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/02/BruinCam-Gallery_nexus5x-portrait.png)
