@@ -45,7 +45,24 @@ The project is for intermediate/advanced students. If you are feeling confident 
 complete the project without the skeleton, but it will be a lot easier to use it. We will be uploading the project solution later on, so if you haven't cracked it by then look at the solution to learn the correct implementation.
 
 ###Instructions
-The goal is to build a basic camera application with as little guidance as possible, so try to come up with unique solutions when you run into problems. You're being given lots of flexibility so come up with your own implementation: grading will be very generous. 
+The goal is to build a basic camera application with as little guidance as possible, so try to come up with unique solutions when you run into problems. You're being given lots of flexibility so come up with your own implementation: grading will be very generous. For this project you've been only provided with the main menu ui, so the goal is to create the rest of the application your self. Here are instruction for each specific screen:
+
+######Main Menu Screen
+* Create two intents that will trigger when each of the respective buttons is pressed. 
+* The "Take Picture" button should take you to that activity, and the "View Gallery" button should take you to the gallery. 
+
+######Camera Screen
+* This is the camera screen of your application, meaning the upper portion of this should act as the camera. So the above portion should update in realtime as you move your phone's camera around. 
+* The big capture button should take a picture, and store it on your phones memory when pressed.
+
+Extra Credit:
+For additional points you can also implement the reverse direction button to switch between front and back cameras, and the flash button to toggle the flash on/off.
+
+######Gallery Screen
+* Should show the three most recent images that a user has capture using the camera screen
+
+Extra Credit:
+You can try implementing a dynamic screen which displays all of the images you have captured instead of the three most recent. This should be a scrollable view.
 
 ###End Product Goal
 Main Menu
