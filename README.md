@@ -59,7 +59,7 @@ Extra Credit:
 For additional points you can also implement the reverse direction button to switch between front and back cameras, and the flash button to toggle the flash on/off.
 
 ######Gallery Screen
-* Should show the three most recent images that a user has capture using the camera screen
+* Should show the three most recent images that a user has captured using the camera screen
 
 Extra Credit:
 You can try implementing a dynamic screen which displays all of the images you have captured instead of the three most recent. This should be a scrollable view.
