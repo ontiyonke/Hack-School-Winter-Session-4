@@ -49,7 +49,7 @@ The goal is to build a basic camera application with as little guidance as possi
 
 ######Main Menu Screen
 * Create two intents that will trigger when each of the respective buttons is pressed. 
-* The "Take Picture" button should take you to that activity, and the "View Gallery" button should take you to the gallery. 
+* The "Take Picture" button should take you to a CameraActivity, and the "View Gallery" button should take you to the GalleryActivity. 
 
 ######Camera Screen
 * This is the camera screen of your application, meaning the upper portion of this should act as the camera. So the above portion should update in realtime as you move your phone's camera around. 
